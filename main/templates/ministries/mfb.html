@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href="..">{{ data['m#'][lang] }}</a>
+        <a href="../ministries">{{ data['m1'][lang] }}</a>
+    </nav>
+
+    <div class="content">
+        <h2>{{ data['m-fb'][lang] }}</h2>
+        <p>{{ data['m-fb-0'][lang] }}</p>
+
+        <p><span>{{ data['m-fb-1'][lang] }}</span><a href="./mfb/enroll">{{ data['m-fb-2'][lang] }}</a><span>{{ data['m-fb-3'][lang] }}</span></p>
+        <p><span>{{ data['m-fb-4'][lang] }}</span><a href="./mfb/reg">{{ data['m-fb-5'][lang] }}</a><span>{{ data['m-fb-6'][lang] }}</span></p>
+
+        <p><span>{{ data['m-fb-7'][lang] }}</span><a href="/resource/laevanaak.pdf">{{ data['m-fb-8'][lang] }}</a><span>{{ data['m-fb-9'][lang] }}</span></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /reg/
+Disallow: /*/reg/
+Disallow: /*/ministries/mbb/purchase
+Disallow: /*/ministries/mbb/purchase.*
+Disallow: /*/ministries/mfb/enroll
+Disallow: /*/ministries/mfb/enroll.*
+Disallow: */reg
+Disallow: */reg.*
+Disallow: /*/elections/vote
+Disallow: /*/elections/vote.*
+
+# Sitemap declarations
+Sitemap: https://enkavak.xhesas.com/sitemap.xml

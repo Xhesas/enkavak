@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/form-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href="..">{{ data['m#'][lang] }}</a>
+        <a href="../elections">{{ data['m9'][lang] }}</a>
+    </nav>
+
+    <div class="content">
+      <fieldset>
+        <legend><h3>{{ data['elec-t5'][lang] }}</h3></legend>
+        <form id="form" action="/elections/vote" method="post" enctype="multipart/form-data">
+            <div class="wrapper">
+                <div>
+                    <label for="id">{{ data['elec-reg2'][lang] }}</label>
+                    <input type="text" name="id" required></input>
+                </div>
+                <div>
+                    <label for="num">{{ data['elec-vote2'][lang] }}</label>
+                    <input type="text" name="num" required></input>
+                </div>
+            </div>
+            <br>
+            <hr/>
+            <br>
+            <div>
+                <h2>{{ data['elec-vote3'][lang] }}</h2>
+                <p>{{ data['elec-vote4'][lang] }}</p>
+                <table id="table-mag">
+                    <tr>
+                        <th></th>
+                        <th>{{ data['elec-t0'][lang] }}</th>
+                        <th>{{ data['elec-reg3'][lang] }}</th>
+                    </tr>
+                    {% for candidate in candidates %}
+                    {% if 'magistrate' in candidate['candidacy'] %}
+                    <tr>
+                        <td><input type="checkbox" value="{{ '_'.join(candidate['name'].split(' ')) }}" name="magistrate" class="magistrate"></td>
+                        <td>{{ candidate['name'] }}</td>
+                        <td>{{ candidate['ideology'][lang_index] }}</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </div>
+            <br>
+            <hr/>
+            <br>
+            <div>
+                <h2>{{ data['elec-vote5'][lang] }}</h2>
+                <p>{{ data['elec-vote6'][lang] }}</p>
+                <table id="table-sen">
+                    <tr>
+                        <th></th>
+                        <th>{{ data['elec-t0'][lang] }}</th>
+                        <th>{{ data['elec-reg3'][lang] }}</th>
+                    </tr>
+                    {% for candidate in candidates %}
+                    {% if 'senator' in candidate['candidacy'] %}
+                    <tr>
+                        <td><input type="checkbox" value="{{ '_'.join(candidate['name'].split(' ')) }}" name="senator" class="senator"></td>
+                        <td>{{ candidate['name'] }}</td>
+                        <td>{{ candidate['ideology'][lang_index] }}</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </table>
+            </div>
+            <button type="submit" value="apply" class="submit-button">{{ data['rf0'][lang] }}</button>
+        </form>
+      </fieldset>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            var limit_mag = 2;
+            var limit_sen = 5;
+
+            $('input.magistrate').on('change', function(evt) {
+                if ($('input.magistrate:checked').length > limit_mag) {
+                    this.checked = false;
+                }
+            });
+            $('input.senator').on('change', function(evt) {
+                if ($('input.senator:checked').length > limit_sen) {
+                    this.checked = false;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

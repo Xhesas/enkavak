@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Laenavaak Modern';
+    src: url('https://font.xhesas.com/LaenavaakModern-Regular.woff') format('woff');
+    size-adjust: 150%;
+}
+.laev {
+    font-family: 'Laenavaak Modern', sans-serif;
+    font-size: 150%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, 'Laenavaak Modern', sans-serif;
+    background-color: #242430;
+    color: #D7D7D7;
+}
+header {
+    background-color: #1900b3;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+}
+.flag {
+    width: 130px;
+    height: 80px;
+    position: absolute;
+    top: calc((100% - 82px) / 2);
+    left: 10px;
+    border: 1px solid white;
+    background: black;
+}
+
+.menu {
+    background-color: #d9a633;
+    display: flex;
+}
+.menu > div, .menu > a {
+    position: relative;
+}
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 100%;
+}
+.menu div ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #d9a633;
+    border-radius: 0 0 12px 12px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    min-width: 150px;
+    width: max-content;
+    max-width: 512px;
+    z-index: 1000;
+}
+.menu div ul li {
+    width: 100%;
+}
+.menu div ul li a {
+    display: block;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+.menu div:hover ul {
+    display: block;
+}
+.menu a:hover,
+.menu div ul li a:hover {
+    background-color: #f2e0b8;
+    color: #000;
+    border-radius: 10px;
+    transition: border-radius .3s cubic-bezier(0.03, 1.12, 0.28, 0.87), color 1s, background-color .3s;
+}
+
+.content {
+    padding: 20px 20px 111px 20px;
+    text-align: center;
+}
+.content .container,
+.content .card {
+    width: 60%;
+    min-width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content a,
+.content h4 a{
+    text-decoration: none;
+    color: #d9a633;
+}
+.content a:hover,
+.content a:hover {
+    color: #f2e0b8;
+}
+.content .card {
+    border: 1px solid #e7e7e7;
+    border-radius: 15px;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 30px;
+    background-color: #363642;
+}
+.content .card .block {
+    min-width: 350px;
+    width: 70%;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2d2d39;
+    border: 1px solid #c5c5c5;
+    text-align: left;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+
+.languages {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.languages a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.languages a:hover {
+    text-decoration: underline;
+}
+.country-names h1 {
+    margin: 5px 0;
+    font-size: 11px;
+}
+.country-names .laev {
+    font-size: 16px;
+}
+.country-names .primary .laev {
+    font-size: 48px;
+}
+.country-names .primary {
+    font-size: 32px;
+}
+footer {
+    background-color: #1900b3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.round {
+    border-radius: 15px;
+}
+.row {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.row > * {
+    margin-bottom: 0;
+    margin-top: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row > *:nth-child(1) {
+    margin-left: 0;
+}
+.row > *:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.content table {
+    width: 60%;
+    margin: 25px auto 15px auto;
+    padding: 5px;
+}
+.content td {
+    padding: 25px 8px 4px 0;
+}
+.content th,
+.content td {
+    text-align: left;
+}

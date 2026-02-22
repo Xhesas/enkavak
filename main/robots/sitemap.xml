@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Main Paths with Language Codes -->
+    <!-- Ministries -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/ministries</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/ministries</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/ministries</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/ministries</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/ministries</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://enkavak.xhesas.com/resource/laevanaak.pdf</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Legislation -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/legislation</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/legislation</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/legislation</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/legislation</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/legislation</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Jurisdiction -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/jurisdiction</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/jurisdiction</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/jurisdiction</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/jurisdiction</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/jurisdiction</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Magistrates -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/magistrates</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/magistrates</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/magistrates</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/magistrates</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/magistrates</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Senate -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/senate</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/senate</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/senate</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/senate</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/senate</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Bank -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/bank</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/bank</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/bank</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/bank</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/bank</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Military -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/military</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/military</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/military</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/military</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/military</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Embassies -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/embassies</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/embassies</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/embassies</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/embassies</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/embassies</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Elections -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/elections</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/elections</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/elections</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/elections</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/elections</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Documentation -->
+    <url>
+        <loc>https://enkavak.xhesas.com/lv/documentation/laevnames</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/de/documentation/laevnames</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/lat/documentation/laevnames</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/gr/documentation/laevnames</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/en/documentation/laevnames</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Resources without Language Prefix -->
+    <url>
+        <loc>https://enkavak.xhesas.com/resources/flag.svg</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://enkavak.xhesas.com/resources/banner.ico</loc>
+        <priority>0.4</priority>
+    </url>
+</urlset>

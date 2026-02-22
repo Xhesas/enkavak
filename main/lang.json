@@ -1,0 +1,1503 @@
+{
+    "lang": [
+        "lv",
+        "de",
+        "lat",
+        "gr",
+        "en"
+    ],
+    "trans": {
+        "0": {
+            "lv": "text in Laevanaak",
+            "de": "text in German",
+            "lat": "text in Latin",
+            "gr": "text in Greek",
+            "en": "text in English"
+        },
+        "t0": {
+            "lv": "",
+            "de": "Republica Atlantica",
+            "lat": "Res Publica Enrava",
+            "gr": "Αὐτοκρατίας Ἇκτικής",
+            "en": "Enkavak"
+        },
+        "t1": {
+            "lv": "Republica Atlantica",
+            "de": "",
+            "lat": "",
+            "gr": "",
+            "en": ""
+        },
+        "t2": {
+            "lv": "Res Publica Enrava",
+            "de": "Res Publica Enrava",
+            "lat": "Republica Atlantica",
+            "gr": "Republica Atlantica",
+            "en": "Republica Atlantica"
+        },
+        "t3": {
+            "lv": "Αὐτοκρατίας Ἇκτικής",
+            "de": "Αὐτοκρατίας Ἇκτικής",
+            "lat": "Αὐτοκρατίας Ἇκτικής",
+            "gr": "Res Publica Enrava",
+            "en": "Res Publica Enrava"
+        },
+        "t4": {
+            "lv": "Enkavak",
+            "de": "Enkavak",
+            "lat": "Enkavak",
+            "gr": "Enkavak",
+            "en": "Αὐτοκρατίας Ἇκτικής"
+        },
+        "t5": {
+            "lv": "",
+            "de": "Atlantische Regierungs Netzseite",
+            "lat": "",
+            "gr": "",
+            "en": "Enkavak Official Government Website"
+        },
+        "m0": {
+            "lv": "",
+            "de": "Bewerbungen & Registrationen",
+            "lat": "",
+            "gr": "",
+            "en": "Applications & Registrations"
+        },
+        "m#": {
+            "lv": "",
+            "de": "Home",
+            "lat": "",
+            "gr": "",
+            "en": "Home"
+        },
+        "m1": {
+            "lv": "",
+            "de": "Ministerien",
+            "lat": "",
+            "gr": "",
+            "en": "Ministries"
+        },
+        "m2": {
+            "lv": "",
+            "de": "Gesetzgebung",
+            "lat": "",
+            "gr": "",
+            "en": "Legislation"
+        },
+        "m3": {
+            "lv": "",
+            "de": "Rechtsprechung",
+            "lat": "",
+            "gr": "",
+            "en": "Jurisdiction"
+        },
+        "m4": {
+            "lv": "",
+            "de": "Magistrate",
+            "lat": "",
+            "gr": "",
+            "en": "Magistrates"
+        },
+        "m5": {
+            "lv": "",
+            "de": "Senat",
+            "lat": "",
+            "gr": "",
+            "en": "Senate"
+        },
+        "m6": {
+            "lv": "",
+            "de": "Staatsbank",
+            "lat": "",
+            "gr": "",
+            "en": "National Bank"
+        },
+        "m7": {
+            "lv": "",
+            "de": "Militär",
+            "lat": "",
+            "gr": "",
+            "en": "Military"
+        },
+        "m8": {
+            "lv": "",
+            "de": "Botschaften",
+            "lat": "",
+            "gr": "",
+            "en": "Embassies"
+        },
+        "m9": {
+            "lv": "",
+            "de": "Wahlen",
+            "lat": "",
+            "gr": "",
+            "en": "Elections"
+        },
+        "index0": {
+            "lv": "",
+            "de": "Wilkommen auf der offiziellen Website der Regierung von Republica Atlantica",
+            "lat": "",
+            "gr": "",
+            "en": "Welcome to the Official Website of the Enkavak Government"
+        },
+        "index1": {
+            "lv": "",
+            "de": "Diese Webseite ist immernoch in Arbeit.",
+            "lat": "",
+            "gr": "",
+            "en": "This Website is still a work in progress."
+        },
+        "index2": {
+            "lv": "",
+            "de": "Das Wichtigste ist allerdings schon fertig, also viel Spaß, für irgendwas zu registrieren oder was auch immer.",
+            "lat": "",
+            "gr": "",
+            "en": "The most important things are already done tho, so enjoy applying for something or whatever."
+        },
+        "reg-cit": {
+            "lv": "",
+            "de": "Staatsbürgerschaftsurkunde",
+            "lat": "",
+            "gr": "",
+            "en": "Citizenship certificate"
+        },
+        "reg-res": {
+            "lv": "",
+            "de": "Staatsbewohnerschaftsurkunde",
+            "lat": "",
+            "gr": "",
+            "en": "Residentship certificate"
+        },
+        "reg-vis": {
+            "lv": "",
+            "de": "Visum",
+            "lat": "",
+            "gr": "",
+            "en": "Visa"
+        },
+        "reg-comp": {
+            "lv": "",
+            "de": "Unternehmen",
+            "lat": "",
+            "gr": "",
+            "en": "Company"
+        },
+        "reg-build": {
+            "lv": "",
+            "de": "Grundstück",
+            "lat": "",
+            "gr": "",
+            "en": "Plot"
+        },
+        "reg-edu": {
+            "lv": "",
+            "de": "Universität",
+            "lat": "",
+            "gr": "",
+            "en": "University"
+        },
+        "reg-mil": {
+            "lv": "",
+            "de": "Militär",
+            "lat": "",
+            "gr": "",
+            "en": "Military"
+        },
+        "reg-emb": {
+            "lv": "",
+            "de": "Botschaft",
+            "lat": "",
+            "gr": "",
+            "en": "Embassy"
+        },
+        "reg-el": {
+            "lv": "",
+            "de": "Wahlaufstellung",
+            "lat": "",
+            "gr": "",
+            "en": "Application for candidacy"
+        },
+        "leg-con": {
+            "lv": "",
+            "de": "Verfassung",
+            "lat": "",
+            "gr": "",
+            "en": "Constitution"
+        },
+        "leg-doc": {
+            "lv": "",
+            "de": "Dokumentationsgesetzbuch",
+            "lat": "",
+            "gr": "",
+            "en": "Lawbook of Documentation"
+        },
+        "leg-market": {
+            "lv": "",
+            "de": "Marktverwaltungsgesetzbuch",
+            "lat": "",
+            "gr": "",
+            "en": "Lawbook of Market Management"
+        },
+        "leg-court": {
+            "lv": "",
+            "de": "Richtgesetz",
+            "lat": "",
+            "gr": "",
+            "en": "Law of Court"
+        },
+        "leg-lang": {
+            "lv": "",
+            "de": "Sprachgewährbuch",
+            "lat": "",
+            "gr": "",
+            "en": "Lawbook of Speech"
+        },
+        "leg-tax": {
+            "lv": "",
+            "de": "Steuergesetzbuch",
+            "lat": "",
+            "gr": "",
+            "en": "Lawbook of Taxation"
+        },
+        "leg-adcom": {
+            "lv": "",
+            "de": "Adcommodation",
+            "lat": "",
+            "gr": "",
+            "en": "Adcommodation"
+        },
+        "rc0": {
+            "lv": "",
+            "de": "Staatsbürgerschaft",
+            "lat": "",
+            "gr": "",
+            "en": "Citizenship"
+        },
+        "rc1": {
+            "lv": "",
+            "de": "Deutscher Name:",
+            "lat": "",
+            "gr": "",
+            "en": "English name:"
+        },
+        "rc2": {
+            "lv": "",
+            "de": "Lateinischer Name:",
+            "lat": "",
+            "gr": "",
+            "en": "Latin name:"
+        },
+        "rc3": {
+            "lv": "",
+            "de": "Laevanaak Name:",
+            "lat": "",
+            "gr": "",
+            "en": "Laevanaak name:"
+        },
+        "rc4": {
+            "lv": "",
+            "de": "Titel ersten Grades:",
+            "lat": "",
+            "gr": "",
+            "en": "First degree title:"
+        },
+        "rc5": {
+            "lv": "",
+            "de": "Titel zweiten Grades:",
+            "lat": "",
+            "gr": "",
+            "en": "Second degree title:"
+        },
+        "rc6": {
+            "lv": "",
+            "de": "Titel dritten Grades:",
+            "lat": "",
+            "gr": "",
+            "en": "Third degree title:"
+        },
+        "rc7": {
+            "lv": "",
+            "de": "Geburtsdatum im Gregorianischen Kalendersystem:",
+            "lat": "",
+            "gr": "",
+            "en": "Birthdate in gregorian calendarsystem:"
+        },
+        "rc8": {
+            "lv": "",
+            "de": "Region/Wohnort:",
+            "lat": "",
+            "gr": "",
+            "en": "Place of residence:"
+        },
+        "rc9": {
+            "lv": "",
+            "de": "Bevorzugte Sprache:",
+            "lat": "",
+            "gr": "",
+            "en": "Preferred language:"
+        },
+        "rc10": {
+            "lv": "",
+            "de": "Anschrift:",
+            "lat": "",
+            "gr": "",
+            "en": "Address:"
+        },
+        "rcib1": {
+            "lv": "",
+            "de": "Dies meint Vorname und Nachname. Bsp.: Max Mustermann",
+            "lat": "",
+            "gr": "",
+            "en": "This includes fist name and last name. Bsp.: John Doe"
+        },
+        "rcib2": {
+            "lv": "",
+            "de": "Dies meint einen klassischen Prae-, Familien- und ggf. Cognomen in dieser Reihenfolge.",
+            "lat": "",
+            "gr": "",
+            "en": "This usually includes a Praenomen, Nomen and possibly a Cognomen in this order."
+        },
+        "rcib3": {
+            "lv": "",
+            "de": "Dies meint die fünf Laevanaak Namenstypen. Mehr Info dazu auf dem Link.",
+            "lat": "",
+            "gr": "",
+            "en": "This includes the five laevanaak name types. More on that at the linked page."
+        },
+        "rcib8": {
+            "lv": "",
+            "de": "Ist der Wohnort auserhalb der Republica Atlantica, genügt das Land.",
+            "lat": "",
+            "gr": "",
+            "en": "If the residence is outside of Enkavak, the country is enough."
+        },
+        "rcib9": {
+            "lv": "",
+            "de": "Offizielle Regierungsnachrichten werden in dieser Sprache verfasst.",
+            "lat": "",
+            "gr": "",
+            "en": "Official government notices will be written in this lanuage."
+        },
+        "rcib10": {
+            "lv": "",
+            "de": "Die Natur dieser Anschrift kann Telefonrufnummer, Discord Benutzername, Postfach Adresse oder Email Adresse sein. Sollte keine Anschrifft angegeben werden, werden offizielle Regierungsnachrichten an den angegebenen Wohnort gesendet.",
+            "lat": "",
+            "gr": "",
+            "en": "This address can be a telephone number, discord username, postal address or email address. If this field is not filled out, official government notices will be sent to the given place of residence."
+        },
+        "rcr2": {
+            "lv": "",
+            "de": "https://de.wikipedia.org/wiki/R%C3%B6mischer_Name#Praenomen,_Nomen_gentile_und_Cognomen",
+            "lat": "",
+            "gr": "",
+            "en": "https://en.wikipedia.org/wiki/Roman_naming_conventions#Tria_nomina"
+        },
+        "rv0": {
+            "lv": "",
+            "de": "Visum",
+            "lat": "",
+            "gr": "",
+            "en": "Visa"
+        },
+        "rv1": {
+            "lv": "",
+            "de": "Name in Heimatssprache:",
+            "lat": "",
+            "gr": "",
+            "en": "Name in native language:"
+        },
+        "rv2": {
+            "lv": "",
+            "de": "Romanisierung des Namens:",
+            "lat": "",
+            "gr": "",
+            "en": "Romanisation of the name:"
+        },
+        "rv3": {
+            "lv": "",
+            "de": "Geburtsdatum im Gregorianischen Kalendersystem:",
+            "lat": "",
+            "gr": "",
+            "en": "Birthdate in gregorian calendersystem:"
+        },
+        "rv4": {
+            "lv": "",
+            "de": "Heimatland:",
+            "lat": "",
+            "gr": "",
+            "en": "Native country:"
+        },
+        "rv5": {
+            "lv": "",
+            "de": "Aktueller Wohnort:",
+            "lat": "",
+            "gr": "",
+            "en": "Current place of residence:"
+        },
+        "rv6": {
+            "lv": "",
+            "de": "Muttersprache:",
+            "lat": "",
+            "gr": "",
+            "en": "Native language:"
+        },
+        "rv7": {
+            "lv": "",
+            "de": "Bevorzugte Sprache:",
+            "lat": "",
+            "gr": "",
+            "en": "Preferred Language:"
+        },
+        "rv8": {
+            "lv": "",
+            "de": "Gewünschter Gültigkeitsbereich:",
+            "lat": "",
+            "gr": "",
+            "en": "Preferred Timeframe:"
+        },
+        "rvib2": {
+            "lv": "",
+            "de": "Nicht benötigt, sollte der Name in der Heimatssprache bereits im lateinischen Alphabet geschrieben sein.",
+            "lat": "",
+            "gr": "",
+            "en": "Not needed, if the native name is already written in the latin alphabet."
+        },
+        "rvib5": {
+            "lv": "",
+            "de": "Hiermit ist der Wohnort innerhalb der Republica Atlantica gemeint.",
+            "lat": "",
+            "gr": "",
+            "en": "This means the place of residence within Enkavak."
+        },
+        "rvib8": {
+            "lv": "",
+            "de": "Bis wann das Visum Gültikgeit behalten soll.",
+            "lat": "",
+            "gr": "",
+            "en": "Up to when the visa should be valid."
+        },
+        "rcp0": {
+            "lv": "",
+            "de": "Unternehmen",
+            "lat": "",
+            "gr": "",
+            "en": "Company"
+        },
+        "rcp1": {
+            "lv": "",
+            "de": "Voller Name des Unternehmens:",
+            "lat": "",
+            "gr": "",
+            "en": "Full name of the company:"
+        },
+        "rcp2": {
+            "lv": "",
+            "de": "Romanisierung des Namens:",
+            "lat": "",
+            "gr": "",
+            "en": "Romanisation of the name:"
+        },
+        "rcp3": {
+            "lv": "",
+            "de": "Kurzform des Namens:",
+            "lat": "",
+            "gr": "",
+            "en": "Short form of the name:"
+        },
+        "rcp4": {
+            "lv": "",
+            "de": "Grund des Unternehmens:",
+            "lat": "",
+            "gr": "",
+            "en": "Reason of the company:"
+        },
+        "rcp5": {
+            "lv": "",
+            "de": "Gründungsdatum:",
+            "lat": "",
+            "gr": "",
+            "en": "Founding date:"
+        },
+        "rcp6": {
+            "lv": "",
+            "de": "Hauptsitz:",
+            "lat": "",
+            "gr": "",
+            "en": "Headquaters:"
+        },
+        "rcp7": {
+            "lv": "",
+            "de": "Geschäftsführer:",
+            "lat": "",
+            "gr": "",
+            "en": "CEO:"
+        },
+        "rcpib2": {
+            "lv": "",
+            "de": "Nicht benötigt, sollte der Name bereits im lateinischen Alphabet geschrieben sein.",
+            "lat": "",
+            "gr": "",
+            "en": "Not needed, if the name is already written in the latin alphabet."
+        },
+        "rcpib3": {
+            "lv": "",
+            "de": "Nicht benötigt, sollte der Name bereits kurz genug sein.",
+            "lat": "",
+            "gr": "",
+            "en": "Not needed, if the name is already short enough."
+        },
+        "rcpib4": {
+            "lv": "",
+            "de": "Der Grund, weshalb das Unternehmen gegründet wurde.",
+            "lat": "",
+            "gr": "",
+            "en": "The reason, the company was founded for."
+        },
+        "rcpib6": {
+            "lv": "",
+            "de": "Das Land reicht.",
+            "lat": "",
+            "gr": "",
+            "en": "The country is enough."
+        },
+        "rcpib9": {
+            "lv": "",
+            "de": "Die Natur dieser Anschrift kann Telefonrufnummer, Discord Benutzername, Postfach Adresse oder Email Adresse sein. Sollte keine Anschrifft angegeben werden, werden offizielle Regierungsnachrichten an den angegebenen Hauptsitz gesendet.",
+            "lat": "",
+            "gr": "",
+            "en": "This address can be a telephone number, discord username, postal address or email address. If this field is not filled out, official government notices will be sent to the given Headquaters."
+        },
+        "rr0": {
+            "lv": "",
+            "de": "Staatsbewohnerschaft",
+            "lat": "",
+            "gr": "",
+            "en": "Residency"
+        },
+        "rr1": {
+            "lv": "",
+            "de": "Name doh adoptierende Staatsbürger:",
+            "lat": "",
+            "gr": "",
+            "en": "Name of the adopting citizen:"
+        },
+        "rr2": {
+            "lv": "",
+            "de": "Staatsbürgeridentifikationsnummer doh adoptierende Staatsbürger:",
+            "lat": "",
+            "gr": "",
+            "en": "Citizen identification number of the adopting citizen:"
+        },
+        "rf0": {
+            "lv": "",
+            "de": "Absenden",
+            "lat": "",
+            "gr": "",
+            "en": "Submit"
+        },
+        "m-fb": {
+            "lv": "",
+            "de": "Ministerium für Bildung",
+            "lat": "",
+            "gr": "",
+            "en": "Ministry of Education"
+        },
+        "m-fb-0": {
+            "lv": "",
+            "de": "Das Ministerium für Bilding leited die Nationale Universität von Atlantis, veröffentlicht Studien über unterschiedliche relevante Themen, dokumentiert Sprachen und sichert Grundkentnisse unter dessen derzeitigen Minister Namnak Xhesas.",
+            "lat": "",
+            "gr": "",
+            "en": "The ministry of Education manages the National University of Enkavak, releases studies on different important subjects, documents languages and ensures literacy under its current Minister Namnak Xhesas."
+        },
+        "m-fb-1": {
+            "lv": "",
+            "de": "Eine Anmelding in die Nationale Universität ist ",
+            "lat": "",
+            "gr": "",
+            "en": "You can enroll to the National University "
+        },
+        "m-fb-2": {
+            "lv": "",
+            "de": "hier",
+            "lat": "",
+            "gr": "",
+            "en": "here"
+        },
+        "m-fb-3": {
+            "lv": "",
+            "de": " möglich.",
+            "lat": "",
+            "gr": "",
+            "en": "."
+        },
+        "m-fb-4": {
+            "lv": "",
+            "de": "Falls du dich für eine Position in dem Ministerium bewerben möchtest, bitte tu das ",
+            "lat": "",
+            "gr": "",
+            "en": "If you want to apply for a position within the ministry, please do that "
+        },
+        "m-fb-5": {
+            "lv": "",
+            "de": "hier",
+            "lat": "",
+            "gr": "",
+            "en": "here"
+        },
+        "m-fb-6": {
+            "lv": "",
+            "de": ".",
+            "lat": "",
+            "gr": "",
+            "en": "."
+        },
+        "m-fb-7": {
+            "lv": "",
+            "de": "Das letzte Werk des Ministeriums ist ",
+            "lat": "",
+            "gr": "",
+            "en": "The latest work of the ministry is "
+        },
+        "m-fb-8": {
+            "lv": "",
+            "de": "diese Dokumentation über die Lävanaakische Sprache",
+            "lat": "",
+            "gr": "",
+            "en": "this documentation on the Laevanaak Language"
+        },
+        "m-fb-9": {
+            "lv": "",
+            "de": ".",
+            "lat": "",
+            "gr": "",
+            "en": "."
+        },
+        "m-fb-f0": {
+            "lv": "",
+            "de": "Anmeldung Unterricht",
+            "lat": "",
+            "gr": "",
+            "en": "Application Classes"
+        },
+        "m-fb-f1": {
+            "lv": "",
+            "de": "Name:",
+            "lat": "",
+            "gr": "",
+            "en": "Name:"
+        },
+        "m-fb-f2": {
+            "lv": "",
+            "de": "Identifikationsnummer:",
+            "lat": "",
+            "gr": "",
+            "en": "Identification number:"
+        },
+        "m-fb-f3": {
+            "lv": "",
+            "de": "Fach:",
+            "lat": "",
+            "gr": "",
+            "en": "Subject:"
+        },
+        "m-fb-f4": {
+            "lv": "",
+            "de": "Anmeldung Prüfung",
+            "lat": "",
+            "gr": "",
+            "en": "Application Exam"
+        },
+        "m-fb-f5": {
+            "lv": "",
+            "de": "Gewünschter Termin:",
+            "lat": "",
+            "gr": "",
+            "en": "Preferred date:"
+        },
+        "m-fb-f6": {
+            "lv": "",
+            "de": "Abschluss:",
+            "lat": "",
+            "gr": "",
+            "en": "Degree:"
+        },
+        "m-fb-fib6": {
+            "lv": "",
+            "de": "Die Abschlüsse von A1 bis C2 werden nur für Fächer zu gesprochenen Sprachen vergeben.",
+            "lat": "",
+            "gr": "",
+            "en": "The degrees A1 through C2 are only given for subjects on spoken languages."
+        },
+        "m-fb-fib2": {
+            "lv": "",
+            "de": "Ggf. Staatsbürger-, Staatsbewohner- oder Visumsidentifikationsnummer.",
+            "lat": "",
+            "gr": "",
+            "en": "If available, citizen, resident or visa identification number."
+        },
+        "m-bb": {
+            "lv": "",
+            "de": "Ministerium für Bebauung und Baukontrolle",
+            "lat": "",
+            "gr": "",
+            "en": "Ministry of Building and Build Management"
+        },
+        "m-bb-f0": {
+            "lv": "",
+            "de": "Grundstückserwerb",
+            "lat": "",
+            "gr": "",
+            "en": "Plot Purchase"
+        },
+        "m-bb-f1": {
+            "lv": "",
+            "de": "Standartgrundstück",
+            "lat": "",
+            "gr": "",
+            "en": "Standard Plot"
+        },
+        "m-bb-f2": {
+            "lv": "",
+            "de": "Botschaftsgrundstück",
+            "lat": "",
+            "gr": "",
+            "en": "Embassy Plot"
+        },
+        "m-bb-f3": {
+            "lv": "",
+            "de": "Dein Land:",
+            "lat": "",
+            "gr": "",
+            "en": "Your country:"
+        },
+        "m-bb-f4": {
+            "lv": "",
+            "de": "Adresse des Grundstücks:",
+            "lat": "",
+            "gr": "",
+            "en": "Address of the plot:"
+        },
+        "m-bb-fib2": {
+            "lv": "",
+            "de": "Staatsbürger-, Staatsbewohner-, Visums- oder Unternehmensidentifikationsnummer.",
+            "lat": "",
+            "gr": "",
+            "en": "citizen, resident, visa or company identification number."
+        },
+        "m-bb-f5": {
+            "lv": "",
+            "de": "Baugenehmigung",
+            "lat": "",
+            "gr": "",
+            "en": "Building Permit"
+        },
+        "m-bb-fib7": {
+            "lv": "",
+            "de": "Staatsbürger-, Staatsbewohner- oder Unternehmensidentifikationsnummer.",
+            "lat": "",
+            "gr": "",
+            "en": "citizen, resident or company identification number."
+        },
+        "m-hab": {
+            "lv": "",
+            "de": "Ministerium für Historische Aufarbeitung und Biblioteksverwaltung",
+            "lat": "",
+            "gr": "",
+            "en": "Ministry of Historical Work and Library Management"
+        },
+        "m-ldi": {
+            "lv": "",
+            "de": "Ministerium für Latente und Diskrete Informationsbeschaffung",
+            "lat": "",
+            "gr": "",
+            "en": "Ministry of Classified and Descreet Information Gathering"
+        },
+        "m-fs": {
+            "lv": "",
+            "de": "Ministerium für Sprachstandardisierung",
+            "lat": "",
+            "gr": "",
+            "en": "Ministry of Language Standardisation"
+        },
+        "m-r0": {
+            "lv": "",
+            "de": "Stellenbewerbung - ",
+            "lat": "",
+            "gr": "",
+            "en": "Job Application - "
+        },
+        "m-r3": {
+            "lv": "",
+            "de": "Angestrebte Stelle:",
+            "lat": "",
+            "gr": "",
+            "en": "Targeted position:"
+        },
+        "m-r4": {
+            "lv": "",
+            "de": "Über dich:",
+            "lat": "",
+            "gr": "",
+            "en": "About you:"
+        },
+        "m-r5": {
+            "lv": "",
+            "de": "Lebenslauf und Fähigkeiten:",
+            "lat": "",
+            "gr": "",
+            "en": "Résumé and skills:"
+        },
+        "subject0": {
+            "lv": "",
+            "de": "Angewandte Musik",
+            "lat": "",
+            "gr": "",
+            "en": "Applied Music"
+        },
+        "subject1": {
+            "lv": "",
+            "de": "Atlantische Politik",
+            "lat": "",
+            "gr": "",
+            "en": "Atlantic Politics"
+        },
+        "subject2": {
+            "lv": "",
+            "de": "Atlantologie",
+            "lat": "",
+            "gr": "",
+            "en": "Atlantology"
+        },
+        "subject3": {
+            "lv": "",
+            "de": "Deutsch",
+            "lat": "",
+            "gr": "",
+            "en": "German"
+        },
+        "subject4": {
+            "lv": "",
+            "de": "Kaarratosk",
+            "lat": "",
+            "gr": "",
+            "en": "Kaarratosk"
+        },
+        "subject5": {
+            "lv": "Levanaak",
+            "de": "Laevanaak",
+            "lat": "Laevana",
+            "gr": "",
+            "en": "Laevanaak"
+        },
+        "subject6": {
+            "lv": "",
+            "de": "Musik Theorie",
+            "lat": "",
+            "gr": "",
+            "en": "Music Theory"
+        },
+        "subject7": {
+            "lv": "",
+            "de": "Globale Politik",
+            "lat": "",
+            "gr": "",
+            "en": "Ŋlobal Politics"
+        },
+        "subject8": {
+            "lv": "",
+            "de": "Rotsteinkunde",
+            "lat": "",
+            "gr": "",
+            "en": "Redstonology"
+        },
+        "degree0": {
+            "lv": "",
+            "de": "Grundstudienabschluss",
+            "lat": "",
+            "gr": "",
+            "en": "Ŋinor"
+        },
+        "degree1": {
+            "lv": "",
+            "de": "Fachstudienabschluss",
+            "lat": "",
+            "gr": "",
+            "en": "Ŋajor"
+        },
+        "degree2": {
+            "lv": "",
+            "de": "Meiserabschluss",
+            "lat": "",
+            "gr": "",
+            "en": "Master"
+        },
+        "degree3": {
+            "lv": "",
+            "de": "Professur",
+            "lat": "",
+            "gr": "",
+            "en": "Professor"
+        },
+        "emb-title1": {
+            "lv": "",
+            "de": "Botschaften in Atlantica",
+            "lat": "",
+            "gr": "",
+            "en": "Embassies in Enkavak"
+        },
+        "emb-title2": {
+            "lv": "",
+            "de": "Botschaften der Republica Atlantica",
+            "lat": "",
+            "gr": "",
+            "en": "Embassies of Enkavak"
+        },
+        "emb-t1": {
+            "lv": "",
+            "de": "Gründungsdatum:",
+            "lat": "",
+            "gr": "",
+            "en": "Founding date:"
+        },
+        "emb-t2": {
+            "lv": "",
+            "de": "Adresse:",
+            "lat": "",
+            "gr": "",
+            "en": "Address:"
+        },
+        "emb-t3": {
+            "lv": "",
+            "de": "Gegründet von:",
+            "lat": "",
+            "gr": "",
+            "en": "Founded by:"
+        },
+        "emb-t4": {
+            "lv": "",
+            "de": "Botschaftsvertrag:",
+            "lat": "",
+            "gr": "",
+            "en": "Embassy contract:"
+        },
+        "emb-kkc0": {
+            "lv": "",
+            "de": "Botschaft des Königreich Kiauzen",
+            "lat": "",
+            "gr": "",
+            "en": "Embassy of the Kingdom of Kyaw Cen"
+        },
+        "emb-kkc1": {
+            "lv": "",
+            "de": "25ster März, 2024",
+            "lat": "",
+            "gr": "",
+            "en": "25th of March, 2024"
+        },
+        "emb-kkc2": {
+            "lv": "",
+            "de": "Niedda Straße 1, Alnangaemak Distrikt, Republica Atlantica",
+            "lat": "",
+            "gr": "",
+            "en": "Niedda Knoll 1, Alnangaemak District, Enkavak"
+        },
+        "emb-kkc3": {
+            "lv": "",
+            "de": "Marcy Shiekah (Kiauzenische Politiker)",
+            "lat": "",
+            "gr": "",
+            "en": "Marcy Sheikah (Kyawcenni Politician)"
+        },
+        "emb-hl0": {
+            "lv": "",
+            "de": "Botschaft des Königreichs Hummland",
+            "lat": "",
+            "gr": "",
+            "en": "Embassy of the Kingdom of hummland"
+        },
+        "emb-hl1": {
+            "lv": "",
+            "de": "18ter August, 2024",
+            "lat": "",
+            "gr": "",
+            "en": "18th of August, 2024"
+        },
+        "emb-hl2": {
+            "lv": "",
+            "de": "Saburabucht Allee 1, Alnangaemak Distrikt, Republica Atlantica",
+            "lat": "",
+            "gr": "",
+            "en": "Saburabucht 1, Alnangaemak District, Enkavak"
+        },
+        "emb-hl3": {
+            "lv": "",
+            "de": "Hummus (Hummlandische Politiker)",
+            "lat": "",
+            "gr": "",
+            "en": "Hummus (Hummlandic Politician)"
+        },
+        "emb-bx0": {
+            "lv": "",
+            "de": "Botschaft von Karschlasjen",
+            "lat": "",
+            "gr": "",
+            "en": "Embassy of the Bezuvate of Xarslasja"
+        },
+        "emb-bx1": {
+            "lv": "",
+            "de": "18ter August, 2024",
+            "lat": "",
+            "gr": "",
+            "en": "18th of August, 2024"
+        },
+        "emb-bx2": {
+            "lv": "",
+            "de": "Saburabucht Allee 3, Alnangaemak Distrikt, Republica Atlantica",
+            "lat": "",
+            "gr": "",
+            "en": "Saburabucht 3, Alnangaemak District, Enkavak"
+        },
+        "emb-bx3": {
+            "lv": "",
+            "de": "Agamashuya (Karschlasjische Politiker)",
+            "lat": "",
+            "gr": "",
+            "en": "Agamashuya (Xarslasjunk Politician)"
+        },
+        "emb-rl0": {
+            "lv": "",
+            "de": "Botschaft des Kaiserreichs Latium",
+            "lat": "Legatio Latii Regnati",
+            "gr": "",
+            "en": "Embassy of the Regnate Latium"
+        },
+        "emb-rl1": {
+            "lv": "",
+            "de": "15ter Dezember, 2024",
+            "lat": "",
+            "gr": "",
+            "en": "15th December, 2024"
+        },
+        "emb-rl2": {
+            "lv": "",
+            "de": "Saburabucht Allee 5, Alnangaemak Distrikt, Republica Atlantica",
+            "lat": "",
+            "gr": "",
+            "en": "Saburabucht 5, Alnangaemak District, Enkavak"
+        },
+        "emb-rl3": {
+            "lv": "",
+            "de": "Theidealist (Politiker Latiums)",
+            "lat": "Idanicus Caesar (Politicus Latii Regnati)",
+            "gr": "",
+            "en": "Theidealist (Politician of Latium)"
+        },
+        "emb-f0": {
+            "lv": "",
+            "de": "Botschaftsbeantragung",
+            "lat": "",
+            "gr": "",
+            "en": "Application for an Embassy"
+        },
+        "emb-f1": {
+            "lv": "",
+            "de": "Name des Landes:",
+            "lat": "",
+            "gr": "",
+            "en": "Name of the Country:"
+        },
+        "emb-f2": {
+            "lv": "",
+            "de": "Name doh Staatsführer:",
+            "lat": "",
+            "gr": "",
+            "en": "Name of the state leader:"
+        },
+        "emb-f3": {
+            "lv": "",
+            "de": "Gewünschte Adresse:",
+            "lat": "",
+            "gr": "",
+            "en": "Desired address:"
+        },
+        "elec-t0": {
+            "lv": "",
+            "de": "Name:",
+            "lat": "",
+            "gr": "",
+            "en": "Name:"
+        },
+        "elec-t1": {
+            "lv": "",
+            "de": "Kandidaturen:",
+            "lat": "",
+            "gr": "",
+            "en": "Candidacies:"
+        },
+        "elec-t2": {
+            "lv": "",
+            "de": "Ergebnis:",
+            "lat": "",
+            "gr": "",
+            "en": "Result:"
+        },
+        "elec-t3": {
+            "lv": "",
+            "de": "Magistrat",
+            "lat": "",
+            "gr": "",
+            "en": "Magistrate"
+        },
+        "elec-t4": {
+            "lv": "",
+            "de": "Senator",
+            "lat": "",
+            "gr": "",
+            "en": "Senator"
+        },
+        "elec-t5": {
+            "lv": "",
+            "de": "Wahlformular",
+            "lat": "",
+            "gr": "",
+            "en": "Voting form"
+        },
+        "elec-t6": {
+            "lv": "",
+            "de": "Kandidatursanmeldung",
+            "lat": "",
+            "gr": "",
+            "en": "Candidacy application"
+        },
+        "elec-n0": {
+            "lv": "",
+            "de": "Namnak Xhesas",
+            "lat": "Namna Hesa",
+            "gr": "",
+            "en": "Namnak Xhesas"
+        },
+        "elec-n1": {
+            "lv": "",
+            "de": "Geminus Strategus Inglytus",
+            "lat": "Geminus Strategus Inglytus",
+            "gr": "",
+            "en": "Geminus Strategus Inglytus"
+        },
+        "elec-n2": {
+            "lv": "",
+            "de": "Thomas Leon",
+            "lat": "Thomas Leon",
+            "gr": "",
+            "en": "Thomas Leon"
+        },
+        "elec-d1": {
+            "lv": "",
+            "de": "Wahl am 9. August, 2024",
+            "lat": "",
+            "gr": "",
+            "en": "Election on the 9th of August, 2024"
+        },
+        "elec-d2": {
+            "lv": "",
+            "de": "Wahl am 24. Mai, 2025",
+            "lat": "",
+            "gr": "",
+            "en": "Election on the 24th of May, 2025"
+        },
+        "elec-r0": {
+            "lv": "",
+            "de": "100%",
+            "lat": "",
+            "gr": "",
+            "en": "100%"
+        },
+        "elec-r1": {
+            "lv": "",
+            "de": "85.6%",
+            "lat": "",
+            "gr": "",
+            "en": "85.6%"
+        },
+        "elec-r2": {
+            "lv": "",
+            "de": "42.9%",
+            "lat": "",
+            "gr": "",
+            "en": "42.9%"
+        },
+        "elec-r3": {
+            "lv": "",
+            "de": "57.1%",
+            "lat": "",
+            "gr": "",
+            "en": "57.1%"
+        },
+        "elec-r4": {
+            "lv": "",
+            "de": "71.4%",
+            "lat": "",
+            "gr": "",
+            "en": "71.4%"
+        },
+        "elec-none0": {
+            "lv": "",
+            "de": "Nicht verfügbar",
+            "lat": "",
+            "gr": "",
+            "en": "Not available"
+        },
+        "elec-none1": {
+            "lv": "",
+            "de": "Die nächste Wahl ist an folgendem Datum:",
+            "lat": "",
+            "gr": "",
+            "en": "The next election is on the folowing date:"
+        },
+        "elec-reg1": {
+            "lv": "",
+            "de": "Name:",
+            "lat": "",
+            "gr": "",
+            "en": "Name:"
+        },
+        "elec-reg2": {
+            "lv": "",
+            "de": "Staatsbürgeridentifikationsnummer:",
+            "lat": "",
+            "gr": "",
+            "en": "Citizen identification number:"
+        },
+        "elec-reg3": {
+            "lv": "",
+            "de": "Politische Ideologie:",
+            "lat": "",
+            "gr": "",
+            "en": "Political ideology:"
+        },
+        "elec-reg4": {
+            "lv": "",
+            "de": "Kandidatur:",
+            "lat": "",
+            "gr": "",
+            "en": "Candidacy:"
+        },
+        "elec-regib1": {
+            "lv": "",
+            "de": "Dies kann nach belieben entweder der moderne, lateinische oder laevanaak Name auf der Staatsbürgerschaftsurkunde sein.",
+            "lat": "",
+            "gr": "",
+            "en": "This can be to your liking either the modern, latin or laevanaak name on your citizenship certificate."
+        },
+        "elec-vote2": {
+            "lv": "",
+            "de": "Wahlverifikationsnummer:",
+            "lat": "",
+            "gr": "",
+            "en": "Voting verification number:"
+        },
+        "elec-vote3": {
+            "lv": "",
+            "de": "Magistratskandidaten",
+            "lat": "",
+            "gr": "",
+            "en": "Magistrate candidates"
+        },
+        "elec-vote4": {
+            "lv": "",
+            "de": "Wähle bis zu 2 Magistratskandidaten aus.",
+            "lat": "",
+            "gr": "",
+            "en": "Vote up to 2 magistrate candidates."
+        },
+        "elec-vote5": {
+            "lv": "",
+            "de": "Senatorskandidaten",
+            "lat": "",
+            "gr": "",
+            "en": "Senator candidates"
+        },
+        "elec-vote6": {
+            "lv": "",
+            "de": "Wähle bis zu 5 Senatorskandidaten aus.",
+            "lat": "",
+            "gr": "",
+            "en": "Vote up to 5 senator candidates."
+        },
+        "doc-laev0": {
+            "lv": "",
+            "de": "Der Laevanaak Name",
+            "lat": "",
+            "gr": "",
+            "en": "The Laevanaak Name"
+        },
+        "doc-laev1": {
+            "lv": "",
+            "de": "Der Laevanaak Name besteht aus fünf Teilen: Der Rufname, der Genusname, der Beziehungsname, der Sprachname und der Geburtsname.",
+            "lat": "",
+            "gr": "",
+            "en": "The laevanaak name consists of five parts: The given name, the genus name, the relation name, the glottic name and the zodiac name."
+        },
+        "doc-laev2": {
+            "lv": "",
+            "de": "Rufname",
+            "lat": "",
+            "gr": "",
+            "en": "Given Name"
+        },
+        "doc-laev3": {
+            "lv": "",
+            "de": "Der Laevanaak Rufname fungiert genauso wie ein gewöhnlicher Vorname des standart Systems. Hier ist eine Liste verschiedener Laevanaak Rufnamen:",
+            "lat": "",
+            "gr": "",
+            "en": "The laevanaak given name works just like the first name in the standard name system. Here is a list of different laevanaak given names:"
+        },
+        "doc-laev4": {
+            "lv": "",
+            "de": "Genusname",
+            "lat": "",
+            "gr": "",
+            "en": "Genus Name"
+        },
+        "doc-laev5": {
+            "lv": "",
+            "de": "Der Laevanaak Genusname ist ein beschreibender Name mit einer für gewöhnlich passenden Bedeutung. Der Genusname kann sich über die Zeit verändern. Hier ist eine Liste verschiedener Laevanaak Genusnamen:",
+            "lat": "",
+            "gr": "",
+            "en": "The laevanaak genus name is a descriptive name with usually a fitting meaning. The genus name can change over time. Here is a list of different laevanaak genus names:"
+        },
+        "doc-laev6": {
+            "lv": "",
+            "de": "Beziehungsname",
+            "lat": "",
+            "gr": "",
+            "en": "Relation name"
+        },
+        "doc-laev7": {
+            "lv": "",
+            "de": "Der Laevanaak Beziehungsname ist der Rufname von einer nahestehenden oder der am nahestehendsten Person mit dem passenden Endung. Hier ist eine Liste von unterschiedlichen Beziehungsnamensendungen:",
+            "lat": "",
+            "gr": "",
+            "en": "The laevanaak relation name is the given name of a close or the closest person with a fitting suffix. Here is a list of different relation name suffixes:"
+        },
+        "doc-laev8": {
+            "lv": "",
+            "de": "Sprachname",
+            "lat": "",
+            "gr": "",
+            "en": "Glottic Name"
+        },
+        "doc-laev9": {
+            "lv": "",
+            "de": "Der Laevanaak Sprachname ist ein Name, der beschreibt, welche Sprache die benannte Person am meisten mag, oder sich am meisten identifiziert. Hier ist eine Liste von unterschiedlichen Sprachnamen:",
+            "lat": "",
+            "gr": "",
+            "en": "The laevanaak glottic name is a name describing which language is the most liked, used or identified with by the named person. Here is a list of different glottic names:"
+        },
+        "doc-laev10": {
+            "lv": "",
+            "de": "Geburtsname",
+            "lat": "",
+            "gr": "",
+            "en": "Zodiac Name"
+        },
+        "doc-laev11": {
+            "lv": "",
+            "de": "Der Laevanaak Geburtsname beschreibt, in welchem Laevanaak Jahr die benannte Person geboren wurde. Der Name ist der name von dem Jahr mit der standart Endung -",
+            "lat": "",
+            "gr": "",
+            "en": "The laevanaak zodiac name describes in which laevanaak year the named person was born. The name is the name of the Year combined with the standard suffix -"
+        },
+        "doc-laev12": {
+            "lv": "",
+            "de": ".",
+            "lat": "",
+            "gr": "",
+            "en": "."
+        },
+        "doc-laevh0": {
+            "lv": "",
+            "de": "Name",
+            "lat": "",
+            "gr": "",
+            "en": "Name"
+        },
+        "doc-laevh1": {
+            "lv": "",
+            "de": "Transliteration",
+            "lat": "",
+            "gr": "",
+            "en": "Transliteration"
+        },
+        "doc-laevh2": {
+            "lv": "",
+            "de": "Endung",
+            "lat": "",
+            "gr": "",
+            "en": "Suffix"
+        },
+        "doc-laevh3": {
+            "lv": "",
+            "de": "Bedeutung",
+            "lat": "",
+            "gr": "",
+            "en": "Meaning"
+        },
+        "": {
+            "lv": "",
+            "de": "",
+            "lat": "",
+            "gr": "",
+            "en": ""
+        }
+    },
+    "trans-doc": [
+        {
+            "id": "citizen-certificate",
+            "lv": "",
+            "de": "",
+            "lat": "",
+            "gr": "",
+            "en": "     Certificate of Citizenship in Enkavak\n~~~~~~~~~~~~~~~~\nThis document serves as written proof that the individual named herein has been granted citizenship of Enkavak. By signing below, the aforementioned individual hereby adopts the Constitution of Enkavak as their own and acknowledges their rights and responsibilities as well as those of other citizens. With the signature of a magistrate of Enkavak, this certificate becomes valid in accordance with Secton 4, Article 1, Paragraph 2 and Section 5, Article 10, Paragraph 2 of the Constitution, and Enkavak recognizes the individual named herein as a citizen, acknowledging their rights and responsibilities.\n\nModern name: {name-mod}\nLatin name: {name-lat}\nLaevanaak name: {name-lv}\n\nFirst degree title: {degree1}\nSecond degree title: {degree2}\nThird degree title: {degree3}\n\nBirth date: {date}\nPlace of residence: {res}\nPrefered language: English\n\nCitizen-id: {id_1}\nIssue date: {issue_date}\nIssue dates of earlier certificates: -\\pSigned:\n\n-{name-mod}\n-Namnak Magistrate of Enkavak, etc. Xhesas etc. etc. Governmential Secretary, etc."
+        },
+        {
+            "id": "resident-certificate",
+            "lv": "",
+            "de": "    Staatsbewohner-\nschaftsurkunde in der\n  Republica Atlantica\n~~~~~~~~~~~~~~~~\nDies ist die schriftliche Urkunde dafür, dass dyi innehabende Person die Staatsbürger-\nschaft von der Republica Atlantica erhalten hat. Durch die Unterschrift doh innehabende Person nimmt hi die Verfassung von der Republica Atlantica als die hin an und erkennt hin eigene Rechte und Pflichten sowie die der anderen Staatsbürger und -bewohner. Durch die Unterschrift ner Magistrat der Republica Atlantica wird diese Urkunde gemäß der Verfassung Abschn. 3 Art. 3 Abs. 1 gültig und Republica Atlantica sieht dyi inhabende Person dieser Urkunde als Staatsbewohner an und erkennt hine Rechte und Pflichten.\n\nModerner Name: {name-mod}\nLateinischer Name: {name-lat}\nLaevanaakischer Name: {name-lv}\n\nGeburtsdatum Gregorianisch: {date}\nGeburtsdatum Laevanaakisch: {date}\n\nWohnort: {res}\nBevorzugte Sprache: Deutsch\n\nName doh adoptierende Staatsbürger: {name}\nStaatsbürgeridentifikationsnummer doh adoptierende Staatsbürger: {id}\n\nStaatsbewohneridentifikationsnummer: {id_1}\n\nAusstelldatum: {issue_date}\n\nAusstelldatum früherer Staatsbewohnerschaftsurkunden: -\\pUnterschrieben:\n\n-{name}\n-Namnak Magistrat der Republica Atlantica etc. Xhesas, Staatssekretär etc. etc. etc.",
+            "lat": "",
+            "gr": "",
+            "en": ""
+        },
+        {
+            "id": "visa",
+            "lv": "",
+            "de": "",
+            "lat": "",
+            "gr": "",
+            "en": "     Visa in Enkavak\n~~~~~~~~~~~~~~~~\nThis document serves as written proof that the individual named herein has been granted visa of Enkavak. By signing below, the aforementioned individual hereby acknowledges and agrees to abide by the laws and regulations of Enkavak during their stay, including recognizing the rights and obligations of citizens and residents. The visa is granted in accordance with Section 4, Article 10, Paragraphs 1 through 3 of the Constitution of Enkavak, and is validated by the signature of a Magistrate of Enkavak. The visa holder's rights and duties during their stay are governed by the specific terms and conditions outlined in the visa agreement, as well as the legal framework of Enkavak.\\pFull name: {name}\nRomanized name: {name-rom}\n\nBirthdate in gregorian calendar system: {date}\nBirthdate in laevanaak calendar system: {date}\n\nNative country: {country}\nPlace of residence: {res}\nNative language: {lang-nat}\nPrefered language: {lang-pref}\n\nVisa-id: {id_1}\nIssue date: {issue_date}\nScope of validity: {timeframe}\nIssue dates of earlier visa: -\\pSigned:\n\n-{name}\n-Namnak Magistrate of Enkavak, etc. Xhesas etc. etc. Governmential Secretary, etc."
+        },
+        {
+            "id": "company-registration",
+            "lv": "",
+            "de": "",
+            "lat": "",
+            "gr": "",
+            "en": ""
+        },
+        {
+            "id": "plot-purchase",
+            "lv": "",
+            "de": "",
+            "lat": "",
+            "gr": "",
+            "en": ""
+        },
+        {
+            "id": "building-permit",
+            "lv": "",
+            "de": "",
+            "lat": "",
+            "gr": "",
+            "en": ""
+        }
+    ]
+}

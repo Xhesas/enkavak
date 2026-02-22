@@ -1,0 +1,43 @@
+{% extends 'regform.html' %}
+
+{% block form %}
+<legend><h3>{{ data['rcp0'][lang] }}</h3></legend>
+<form id="form" action="/reg/company" method="post" enctype="multipart/form-data">
+    <div class="wrapper">
+    <div>
+        <label for="name">{{ data['rcp1'][lang] }}</label>
+        <input type="text" name="name" required>
+        <label for="name-rom" class="hover">{{ data['rcp2'][lang] }}<span class="info">{{ data['rcpib2'][lang] }}</span></label>
+        <input type="text" name="name-rom">
+        <label for="name-short" class="hover">{{ data['rcp3'][lang] }}<span class="info">{{ data['rcpib3'][lang] }}</span></label>
+        <input type="text" name="name-short">
+        <label for="reason" class="hover">{{ data['rcp4'][lang] }}<span class="info">{{ data['rcpib4'][lang] }}</span></label>
+        <input type="text" name="reason" required>
+    </div>
+    <div>
+        <label for="date">{{ data['rcp5'][lang] }}</label>
+        <input type="date" name="date" required>
+        <label for="loc" class="hover">{{ data['rcp6'][lang] }}<span class="info">{{ data['rcpib6'][lang] }}</span></label>
+        <input type="text" name="loc" required>
+        <label for="ceo">{{ data['rcp7'][lang] }}</label>
+        <input type="text" name="ceo" required>
+    </div>
+    </div>
+    <br>
+    <hr />
+    <br>
+    <div>
+        <label for="lang"><a class="hover">{{ data['rc9'][lang] }}<span class="info">{{ data['rcib9'][lang] }}</span></a></label>
+        <select name="lang" required>
+            <option value="lv">Laevanaak</option>
+            <option value="de">Deutsch</option>
+            <option value="lat">LATINA</option>
+            <option value="gr">Ἡλληνιστί</option>
+            <option value="en">English</option>
+        </select>
+        <label for="addr"><a class="hover">{{ data['rc10'][lang] }}<span class="info">{{ data['rcpib9'][lang] }}</span></a></label>
+        <input type="text" name="addr">
+    </div>
+    <button type="submit" value="register" class="submit-button">{{ data['rf0'][lang] }}</button>
+</form>
+{% endblock %}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/form-style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href=".">{{ data['m#'][lang] }}</a>
+    </nav>
+
+    <div class="content">
+        <h2>{{ data['emb-title1'][lang] }}</h2>
+        <div class="card">
+            <h3>{{ data['emb-kkc0'][lang] }}</h3>
+            <img src="/resource/embassykkc.png" class="round" width="620"></img>
+            <span class="row">
+                <h4>{{ data['emb-t1'][lang] }}</h4>
+                <p>{{ data['emb-kkc1'][lang] }}</p>
+            </span>
+            <span class="row">
+                <h4>{{ data['emb-t2'][lang] }}</h4>
+                <p>{{ data['emb-kkc2'][lang] }}</p>
+            </span>
+            <span class="row">
+                <h4>{{ data['emb-t3'][lang] }}</h4>
+                <p>{{ data['emb-kkc3'][lang] }}</p>
+            </span>
+            <h4>{{ data['emb-t4'][lang] }}</h4>
+            <div class="block">
+            This is the contract for the admission of the embassy of Kyaw Cen in Enkavak<br><br>Enkavak recognizes the house at Nidda knoll 1, Alnangaemak district, Enkavak as the legal embassy for Kyaw Cen with all the rights and laws, that this comes with.<br><br><hr/>Kyaw Cen accepts all the local laws of Enkavak and the United Ŋations and is willing to look after the stated house in Alnangaemak for the sake of diplomacy.<br><br><hr/> Given the 25th of March, 2024<br><br>-Marcy I, Quing of Kyaw Cen<br>-Namnak Magistrate of Enkavak, etc. Xhesas etc. Minister of Building and Build Management, Governmential Secretary, etc.
+            </div>
+        </div>
+        <div class="card">
+            <h3>{{ data['emb-hl0'][lang] }}</h3>
+            <img src="/resource/embassyhl.png" class="round" width="620"></img>
+            <span class="row">
+                <h4>{{ data['emb-t1'][lang] }}</h4>
+                <p>{{ data['emb-hl1'][lang] }}</p>
+            </span>
+            <span class="row">
+                <h4>{{ data['emb-t2'][lang] }}</h4>
+                <p>{{ data['emb-hl2'][lang] }}</p>
+            </span>
+            <span class="row">
+                <h4>{{ data['emb-t3'][lang] }}</h4>
+                <p>{{ data['emb-hl3'][lang] }}</p>
+            </span>
+            <h4>{{ data['emb-t4'][lang] }}</h4>
+            <div class="block">
+            </div>
+        </div>
+        <div class="card">
+            <h3>{{ data['emb-bx0'][lang] }}</h3>
+            <img src="/resource/embassybx.png" class="round" width="620"></img>
+            <span class="row">
+                <h4>{{ data['emb-t1'][lang] }}</h4>
+                <p>{{ data['emb-bx1'][lang] }}</p>
+            </span>
+            <span class="row">
+                <h4>{{ data['emb-t2'][lang] }}</h4>
+                <p>{{ data['emb-bx2'][lang] }}</p>
+            </span>
+            <span class="row">
+                <h4>{{ data['emb-t3'][lang] }}</h4>
+                <p>{{ data['emb-bx3'][lang] }}</p>
+            </span>
+            <h4>{{ data['emb-t4'][lang] }}</h4>
+            <div class="block">
+            </div>
+        </div>
+        <div class="card">
+            <h3>{{ data['emb-rl0'][lang] }}</h3>
+            <img src="/resource/embassyrl.png" class="round" width="620"></img>
+            <span class="row">
+                <h4>{{ data['emb-t1'][lang] }}</h4>
+                <p>{{ data['emb-rl1'][lang] }}</p>
+            </span>
+            <span class="row">
+                <h4>{{ data['emb-t2'][lang] }}</h4>
+                <p>{{ data['emb-rl2'][lang] }}</p>
+            </span>
+            <span class="row">
+                <h4>{{ data['emb-t3'][lang] }}</h4>
+                <p>{{ data['emb-rl3'][lang] }}</p>
+            </span>
+            <h4>{{ data['emb-t4'][lang] }}</h4>
+            <div class="block">
+                This is the contract for the admission of the embassy from the Reborn Nguhcordian Empire of Latium in Enkavak.<br><br>Enkavak recognizes the house at Saburabucht 5, Alnaŋaemak, Enkavak as the legal embassy for Latium with all the rights and laws, that this comes with.<br><br><hr/>Latium accepts all the local laws of Enkavak and the United Ŋations and is willing to look after the stated house in Alnaŋaemak for the sake of diplomacy.<br><br><hr/>Given the 15th of December, 2024<br><br>-Theidealist<br>-Namnak Magistrate of Enkavak, etc. Xhesas etc. Minister of Building and Build Management, Governmential Secretary, etc. etc.
+            </div>
+        </div>
+        <fieldset>
+            <legend><h3><a href="./embassies/reg">{{ data['emb-f0'][lang] }}</a></h3></legend>
+            <form id="form" action="/embassies/reg" method="post" enctype="multipart/form-data">
+                <div class="wrapper">
+                    <div>
+                        <label for="country">{{ data['emb-f1'][lang] }}</label>
+                        <input type="text" name="country" required></input>
+                    </div>
+                    <div>
+                        <label for="name">{{ data['emb-f2'][lang] }}</label>
+                        <input type="text" name="name" required></input>
+                    </div>
+                </div>
+                <div>
+                    <label for="address">{{ data['emb-f3'][lang] }}</label>
+                    <input type="text" name="address"></input>
+                </div>
+                <button type="submit" value="apply" class="submit-button">{{ data['rf0'][lang] }}</button>
+            </form>
+        </fieldset>
+        <br>
+        <hr/>
+        <br>
+        <h2>{{ data['emb-title2'][lang] }}</h2>
+        <div class="card">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+</body>
+</html>

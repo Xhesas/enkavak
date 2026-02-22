@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/form-style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href="../..">{{ data['m#'][lang] }}</a>
+        <a href="../../ministries">{{ data['m1'][lang] }}</a>
+        <a href="../mfb">{{ data['m-fb'][lang] }}</a>
+    </nav>
+
+    <div class="content">
+      <fieldset>
+        <legend><h3>{{ data['m-fb-f0'][lang] }}</h3></legend>
+        <form id="form-class" action="/ministries/mfb/enroll-class" method="post" enctype="multipart/form-data">
+            <div class="wrapper">
+                <div>
+                    <label for="name">{{ data['m-fb-f1'][lang] }}</label>
+                    <input type="text" name="name" required></input>
+                </div>
+                <div>
+                    <label for="id" class="hover">{{ data['m-fb-f2'][lang] }}<span class="info">{{ data['m-fb-fib2'][lang] }}</span></label>
+                    <input type="text" name="id"></input>
+                </div>
+            </div>
+            <div>
+                <label for="subject">{{ data['m-fb-f3'][lang] }}</label>
+                <select name="subject" required>
+                    <option value="music_applied">{{ data['subject0'][lang] }}</option>
+                    <option value="atlantic_pol">{{ data['subject1'][lang] }}</option>
+                    <option value="atlantology">{{ data['subject2'][lang] }}</option>
+                    <option value="german">{{ data['subject3'][lang] }}</option>
+                    <option value="kaarratosk">{{ data['subject4'][lang] }}</option>
+                    <option value="laevanaak">{{ data['subject5'][lang] }}</option>
+                    <option value="music_theory">{{ data['subject6'][lang] }}</option>
+                    <option value="global_pol">{{ data['subject7'][lang] }}</option>
+                    <option value="redstonology">{{ data['subject8'][lang] }}</option>
+                </select>
+            </div>
+            <button type="submit" value="enroll" class="submit-button">{{ data['rf0'][lang] }}</button>
+        </form>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><h3>{{ data['m-fb-f4'][lang] }}</h3></legend>
+        <form id="form-exam" action="/ministries/mfb/enroll-exam" method="post" enctype="multipart/form-data">
+            <div class="wrapper">
+                <div>
+                    <label for="name">{{ data['m-fb-f1'][lang] }}</label>
+                    <input type="text" name="name" required></input>
+                    <label for="id" class="hover">{{ data['m-fb-f2'][lang] }}<span class="info">{{ data['m-fb-fib2'][lang] }}</span></label>
+                    <input type="text" name="id"></input>
+                </div>
+                <div>
+                    <label for="subject">{{ data['m-fb-f3'][lang] }}</label>
+                    <select name="subject" required>
+                        <option value="music_applied">{{ data['subject0'][lang] }}</option>
+                        <option value="atlantic_pol">{{ data['subject1'][lang] }}</option>
+                        <option value="atlantology">{{ data['subject2'][lang] }}</option>
+                        <option value="german">{{ data['subject3'][lang] }}</option>
+                        <option value="kaarratosk">{{ data['subject4'][lang] }}</option>
+                        <option value="laevanaak">{{ data['subject5'][lang] }}</option>
+                        <option value="music_theory">{{ data['subject6'][lang] }}</option>
+                        <option value="global_pol">{{ data['subject7'][lang] }}</option>
+                        <option value="redstonology">{{ data['subject8'][lang] }}</option>
+                    </select>
+                    <label for="date">{{ data['m-fb-f5'][lang] }}</label>
+                    <input type="date" name="date"></input>
+                    <label for="degree" class="hover">{{ data['m-fb-f6'][lang] }}<span class="info">{{ data['m-fb-fib6'][lang] }}</span></label>
+                    <select name="degree" required>
+                        <option value="minor">{{ data['degree0'][lang] }}</option>
+                        <option value="major">{{ data['degree1'][lang] }}</option>
+                        <option value="master">{{ data['degree2'][lang] }}</option>
+                        <option value="prof">{{ data['degree3'][lang] }}</option>
+                        <option value="a1">A1</option>
+                        <option value="a2">A2</option>
+                        <option value="b1">B1</option>
+                        <option value="b2">B2</option>
+                        <option value="c1">C1</option>
+                        <option value="c2">C2</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" value="enroll" class="submit-button">{{ data['rf0'][lang] }}</button>
+        </form>
+      </fieldset>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+</body>
+</html>

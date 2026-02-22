@@ -1,0 +1,41 @@
+{% extends 'regform.html' %}
+
+{% block form %}
+<legend><h3>{{ data['rr0'][lang] }}</h3></legend>
+<form id="form" action="/reg/resident" method="post" enctype="multipart/form-data">
+    <div class="wrapper">
+    <div>
+        <label for="name-mod" class="hover">{{ data['rc1'][lang] }}<span class="info">{{ data['rcib1'][lang] }}</span></label>
+        <input type="text" name="name-mod" required>
+        <label for="name-lat"><a href="{{ data['rcr2'][lang] }}" class="hover">{{ data['rc2'][lang] }}<span class="info">{{ data['rcib2'][lang] }}</span></a></label>
+        <input type="text" name="name-lat" required>
+        <label for="name-lv"><a href="../doc/laevnames" class="hover">{{ data['rc3'][lang] }}<span class="info">{{ data['rcib3'][lang] }}</span></a></label>
+        <input type="text" name="name-lv" required>
+    </div>
+    <div>
+        <label for="date">{{ data['rc7'][lang] }}</label>
+        <input type="date" name="date" required>
+        <label for="res" class="hover">{{ data['rc8'][lang] }}<span class="info">{{ data['rcib8'][lang] }}</span></label>
+        <input type="text" name="res" required>
+        <label for="lang" class="hover">{{ data['rc9'][lang] }}<span class="info">{{ data['rcib9'][lang] }}</span></label>
+        <select name="lang" required>
+            <option value="lv">Laevanaak</option>
+            <option value="de">Deutsch</option>
+            <option value="lat">LATINA</option>
+            <option value="gr">Ἡλληνιστί</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+    </div>
+    <br>
+    <hr />
+    <br>
+    <div>
+        <label for="name">{{ data['rr1'][lang] }}</label>
+        <input type="text" name="name" required>
+        <label for="id">{{ data['rr2'][lang] }}</label>
+        <input type="text" name="id" required>
+    </div>
+    <button type="submit" value="register" class="submit-button">{{ data['rf0'][lang] }}</button>
+</form>
+{% endblock %}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href="..">{{ data['m#'][lang] }}</a>
+    </nav>
+
+    <div class="content">
+        <h2>{{ data['doc-laev0'][lang] }}</h2>
+        <p>{{ data['doc-laev1'][lang] }}</p>
+        <br>
+        <div class="card">
+            <h3>{{ data['doc-laev2'][lang] }}</h3>
+            <p>{{ data['doc-laev3'][lang] }}</p>
+            <table>
+                <tr>
+                    <th>{{ data['doc-laevh0'][lang] }}</th>
+                    <th>{{ data['doc-laevh1'][lang] }}</th>
+                    <th>{{ data['doc-laevh3'][lang] }}</th>
+                </tr>
+                {% for name in names['given'] %}
+                <tr>
+                    <td>{{ name['laev'] }}</td>
+                    <td>{{ name['translit'] }}</td>
+                    <td>{{ name['meaning'][lang] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <br>
+        <div class="card">
+            <h3>{{ data['doc-laev4'][lang] }}</h3>
+            <p>{{ data['doc-laev5'][lang] }}</p>
+            <table>
+                <tr>
+                    <th>{{ data['doc-laevh0'][lang] }}</th>
+                    <th>{{ data['doc-laevh1'][lang] }}</th>
+                    <th>{{ data['doc-laevh3'][lang] }}</th>
+                </tr>
+                {% for name in names['genus'] %}
+                <tr>
+                    <td>{{ name['laev'] }}</td>
+                    <td>{{ name['translit'] }}</td>
+                    <td>{{ name['meaning'][lang] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <br>
+        <div class="card">
+            <h3>{{ data['doc-laev6'][lang] }}</h3>
+            <p>{{ data['doc-laev7'][lang] }}</p>
+            <table>
+                <tr>
+                    <th>{{ data['doc-laevh2'][lang] }}</th>
+                    <th>{{ data['doc-laevh1'][lang] }}</th>
+                    <th>{{ data['doc-laevh3'][lang] }}</th>
+                </tr>
+                {% for name in names['relative'] %}
+                <tr>
+                    <td>{{ name['laev'] }}</td>
+                    <td>{{ name['translit'] }}</td>
+                    <td>{{ name['meaning'][lang] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <br>
+        <div class="card">
+            <h3>{{ data['doc-laev8'][lang] }}</h3>
+            <p>{{ data['doc-laev9'][lang] }}</p>
+            <table>
+                <tr>
+                    <th>{{ data['doc-laevh0'][lang] }}</th>
+                    <th>{{ data['doc-laevh1'][lang] }}</th>
+                    <th>{{ data['doc-laevh3'][lang] }}</th>
+                </tr>
+                {% for name in names['glottic'] %}
+                <tr>
+                    <td>{{ name['laev'] }}</td>
+                    <td>{{ name['translit'] }}</td>
+                    <td>{{ name['meaning'][lang] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <br>
+        <div class="card">
+            <h3>{{ data['doc-laev10'][lang] }}</h3>
+            <p><span>{{ data['doc-laev11'][lang] }}</span><span></span><span>{{ data['doc-laev12'][lang] }}</span></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+</body>
+</html>

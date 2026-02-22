@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <div>
+            <a href="reg">{{ data['m0'][lang] }}</a>
+            <ul>
+                <li><a href="reg/citizen">{{ data['reg-cit'][lang] }}</a></li>
+                <li><a href="reg/resident">{{ data['reg-res'][lang] }}</a></li>
+                <li><a href="reg/visa">{{ data['reg-vis'][lang] }}</a></li>
+                <li><a href="reg/company">{{ data['reg-comp'][lang] }}</a></li>
+                <li><a href="ministries/mbb/purchase">{{ data['reg-build'][lang] }}</a></li>
+                <li><a href="ministries/mfb/enroll">{{ data['reg-edu'][lang] }}</a></li>
+                <li><a href="military/reg">{{ data['reg-mil'][lang] }}</a></li>
+                <li><a href="embassies/reg">{{ data['reg-emb'][lang] }}</a></li>
+                <li><a href="elections/reg">{{ data['reg-el'][lang] }}</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="ministries">{{ data['m1'][lang] }}</a>
+            <ul>
+                <li><a href="ministries/mbb">{{ data['m-bb'][lang] }}</a></li>
+                <li><a href="ministries/mfb">{{ data['m-fb'][lang] }}</a></li>
+                <li><a href="ministries/mhab">{{ data['m-hab'][lang] }}</a></li>
+                <li><a href="ministries/mldi">{{ data['m-ldi'][lang] }}</a></li>
+                <li><a href="ministries/mfs">{{ data['m-fs'][lang] }}</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="legislation">{{ data['m2'][lang] }}</a>
+            <ul>
+                <li><a href="legislation/constitution">{{ data['leg-con'][lang] }}</a></li>
+                <li><a href="legislation/lawbook/doc">{{ data['leg-doc'][lang] }}</a></li>
+                <li><a href="legislation/lawbook/market">{{ data['leg-market'][lang] }}</a></li>
+                <li><a href="legislation/lawbook/court">{{ data['leg-court'][lang] }}</a></li>
+                <li><a href="legislation/lawbook/lang">{{ data['leg-lang'][lang] }}</a></li>
+                <li><a href="legislation/lawbook/tax">{{ data['leg-tax'][lang] }}</a></li>
+                <li><a href="legislation/adcom">{{ data['leg-adcom'][lang] }}</a></li>
+            </ul>
+        </div>
+        <a href="jurisdiction">{{ data['m3'][lang] }}</a>
+        <a href="magistrates">{{ data['m4'][lang] }}</a>
+        <a href="senate">{{ data['m5'][lang] }}</a>
+        <a href="bank">{{ data['m6'][lang] }}</a>
+        <a href="military">{{ data['m7'][lang] }}</a>
+        <a href="embassies">{{ data['m8'][lang] }}</a>
+        <a href="elections">{{ data['m9'][lang] }}</a>
+        <!-- Add more links as necessary -->
+    </nav>
+
+    <div class="content">
+        <h2>{{ data['index0'][lang] }}</h2>
+        <p>{{ data['index1'][lang] }}</p>
+        <p>{{ data['index2'][lang] }}</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+</body>
+</html>

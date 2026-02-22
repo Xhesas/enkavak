@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Lima Saa Hesiqugollo Bite Gashveino",
+        "ideology": ["Left-leaning", "Linksgerichtet", "Sinistra Politica Inclinis", "Left-leaning", "Left-leaning"],
+        "candidacy": ["senator"]
+    },
+    {
+        "name": "Thomas Leon",
+        "ideology": ["Moderately Left", "Moderates Links", "Moderate Politica Sinistra", "Moderately Left", "Moderately Left"],
+        "candidacy": ["senator"]
+    },
+    {
+        "name": "Namnak Xhesas",
+        "ideology": [
+            "Far Left",
+            "Links",
+            "Sinistra Politica",
+            "something something greek words ig",
+            "Far Left"
+        ],
+        "candidacy": ["magistrate", "senator"]
+    },
+    {
+        "name": "Geminus Strategus Inglytus",
+        "ideology": ["Left extremist authoritarian", "Links extrem authoritär", "Extrema Sinistra Politica Imperiosa", "Left extremist authoritarian", "Left extremist authoritarian"],
+        "candidacy": ["magistrate", "senator"]
+    },
+    {
+        "name": "Hesiqu Kaos Limagollo Bite Gashshaveino",
+        "ideology": ["Centre-Left", "Mitte-Links", "Moderate Politica Sinistra", "Centre-Left", "Centre-Left"],
+        "candidacy": ["senator"]
+    }
+]

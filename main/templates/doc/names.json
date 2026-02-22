@@ -1,0 +1,506 @@
+[
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Nomnak",
+        "meaning": {
+                "lv": "",
+                "de": "Kämpfer, Krieger",
+                "lat": "",
+                "gr": "",
+                "en": "Fighter, Warrior"
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Gooke",
+        "meaning": {
+                "lv": "",
+                "de": "Der Gute, Die Gute",
+                "lat": "",
+                "gr": "",
+                "en": "The Good"
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Nida",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Seqi",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Ŋeso",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Some",
+        "meaning": {
+                "lv": "",
+                "de": "von Samira, Thomas, Sam",
+                "lat": "",
+                "gr": "",
+                "en": "loaned from Sam, Thomas"
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Ŋaemvaimai",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Eqiv",
+        "meaning": {
+                "lv": "",
+                "de": "von Iris",
+                "lat": "",
+                "gr": "",
+                "en": "loaned from Iris"
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Eanniv",
+        "meaning": {
+                "lv": "",
+                "de": "von Jan, Ian",
+                "lat": "",
+                "gr": "",
+                "en": "loaned from Jan, Ian"
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Ŋoeŋivumak",
+        "meaning": {
+                "lv": "",
+                "de": "Der/Die Gegebene, dierekte Übersetzung von Josef, Joschua, Josa ...",
+                "lat": "",
+                "gr": "",
+                "en": "The Given, literal translation of Josef, Joshua, Josa ..."
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Abnohlnanvumahk",
+        "meaning": {
+                "lv": "",
+                "de": "Der/Die Gewinner(in), direkte Übersetzung von Niko, Nico ...",
+                "lat": "",
+                "gr": "",
+                "en": "The winner, literal translation of Niko, Nico ..."
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Atlatikasivi",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Imniahk",
+        "meaning": {
+                "lv": "",
+                "de": "Frei, Freiheit, direkte Übersetzung von Charlot",
+                "lat": "",
+                "gr": "",
+                "en": "Free, Freedom, literal translation of Charlot"
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "vaiva",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Njinak",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Uh",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Bai",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Sevifi",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Gurk",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "given",
+        "laev": "",
+        "translit": "Qoqokesak",
+        "meaning": {
+                "lv": "",
+                "de": "von Dora, Doretta ...",
+                "lat": "",
+                "gr": "",
+                "en": "loaned from Dora, Doretta ..."
+            }
+    },
+    {
+        "type": "genus",
+        "laev": "",
+        "translit": "Nesav",
+        "meaning": {
+                "lv": "",
+                "de": "standhaft, stark (Xhesas)",
+                "lat": "",
+                "gr": "",
+                "en": "strong, durable (Xhesas)"
+            }
+    },
+    {
+        "type": "genus",
+        "laev": "",
+        "translit": "Ebai",
+        "meaning": {
+                "lv": "",
+                "de": "mehrere Haarfarben, oder männlich und niedlich",
+                "lat": "",
+                "gr": "",
+                "en": "multiple haircolors or male and cute"
+            }
+    },
+    {
+        "type": "genus",
+        "laev": "",
+        "translit": "Saa",
+        "meaning": {
+                "lv": "",
+                "de": "groß",
+                "lat": "",
+                "gr": "",
+                "en": "big, tall"
+            }
+    },
+    {
+        "type": "genus",
+        "laev": "",
+        "translit": "Duhoy",
+        "meaning": {
+                "lv": "",
+                "de": "dunkle Haarfarbe, oder weiblich und dramatisch",
+                "lat": "",
+                "gr": "",
+                "en": "dark haircolor or female and dramatic"
+            }
+    },
+    {
+        "type": "genus",
+        "laev": "",
+        "translit": "Kaakoti",
+        "meaning": {
+                "lv": "",
+                "de": "rote Haare",
+                "lat": "",
+                "gr": "",
+                "en": "red hair"
+            }
+    },
+    {
+        "type": "genus",
+        "laev": "",
+        "translit": "Sika",
+        "meaning": {
+                "lv": "",
+                "de": "",
+                "lat": "",
+                "gr": "",
+                "en": ""
+            }
+    },
+    {
+        "type": "genus",
+        "laev": "",
+        "translit": "Simvak",
+        "meaning": {
+                "lv": "",
+                "de": "halblanges helles Haar",
+                "lat": "",
+                "gr": "",
+                "en": "half long light hair"
+            }
+    },
+    {
+        "type": "genus",
+        "laev": "",
+        "translit": "Kaos",
+        "meaning": {
+                "lv": "",
+                "de": "kaotisch",
+                "lat": "",
+                "gr": "",
+                "en": "chaotic"
+            }
+    },
+    {
+        "type": "relative",
+        "laev": "-",
+        "translit": "-koi",
+        "meaning": {
+                "lv": "",
+                "de": "Geschwister",
+                "lat": "",
+                "gr": "",
+                "en": "sibling"
+            }
+    },
+    {
+        "type": "relative",
+        "laev": "-",
+        "translit": "-ini",
+        "meaning": {
+                "lv": "",
+                "de": "Liebespartner",
+                "lat": "",
+                "gr": "",
+                "en": "love partner"
+            }
+    },
+    {
+        "type": "relative",
+        "laev": "-",
+        "translit": "-siv",
+        "meaning": {
+                "lv": "",
+                "de": "Elternteil",
+                "lat": "",
+                "gr": "",
+                "en": "parent"
+            }
+    },
+    {
+        "type": "relative",
+        "laev": "-",
+        "translit": "-olnin",
+        "meaning": {
+                "lv": "",
+                "de": "Mentor/in, Lehrer/in, Meister/in",
+                "lat": "",
+                "gr": "",
+                "en": "mentor, teacher, master"
+            }
+    },
+    {
+        "type": "relative",
+        "laev": "-",
+        "translit": "-gollo",
+        "meaning": {
+                "lv": "",
+                "de": "Freund, Freundin",
+                "lat": "",
+                "gr": "",
+                "en": "friend"
+            }
+    },
+    {
+        "type": "glottic",
+        "laev": "",
+        "translit": "toito",
+        "meaning": {
+                "lv": "",
+                "de": "Deutsch",
+                "lat": "",
+                "gr": "",
+                "en": "German"
+            }
+    },
+    {
+        "type": "glottic",
+        "laev": "",
+        "translit": "nailele",
+        "meaning": {
+                "lv": "",
+                "de": "Laevanaak",
+                "lat": "",
+                "gr": "",
+                "en": "Laevanaak"
+            }
+    },
+    {
+        "type": "glottic",
+        "laev": "",
+        "translit": "lomi",
+        "meaning": {
+                "lv": "",
+                "de": "Latein",
+                "lat": "",
+                "gr": "",
+                "en": "Latin"
+            }
+    },
+    {
+        "type": "glottic",
+        "laev": "",
+        "translit": "leoa",
+        "meaning": {
+                "lv": "",
+                "de": "Griechisch",
+                "lat": "",
+                "gr": "",
+                "en": "Greek"
+            }
+    },
+    {
+        "type": "glottic",
+        "laev": "",
+        "translit": "bite",
+        "meaning": {
+                "lv": "",
+                "de": "Englisch",
+                "lat": "",
+                "gr": "",
+                "en": "English"
+            }
+    },
+    {
+        "type": "glottic",
+        "laev": "",
+        "translit": "olliqi",
+        "meaning": {
+                "lv": "",
+                "de": "Deutsch",
+                "lat": "",
+                "gr": "",
+                "en": "German"
+            }
+    },
+    {
+        "type": "glottic",
+        "laev": "",
+        "translit": "moalak",
+        "meaning": {
+                "lv": "",
+                "de": "Deutsch",
+                "lat": "",
+                "gr": "",
+                "en": "German"
+            }
+    },
+    {
+        "type": "glottic",
+        "laev": "",
+        "translit": "nasanin",
+        "meaning": {
+                "lv": "",
+                "de": "!Xóõj",
+                "lat": "",
+                "gr": "",
+                "en": "!Xóõj"
+            }
+    },
+    {
+        "type": "glottic",
+        "laev": "",
+        "translit": "olalliqi",
+        "meaning": {
+                "lv": "",
+                "de": "Áwarisch",
+                "lat": "",
+                "gr": "",
+                "en": "Áwaric"
+            }
+    }
+]

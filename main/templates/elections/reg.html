@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/form-style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href="..">{{ data['m#'][lang] }}</a>
+        <a href="../elections">{{ data['m9'][lang] }}</a>
+    </nav>
+
+    <div class="content">
+      <fieldset>
+        <legend><h3>{{ data['elec-t6'][lang] }}</h3></legend>
+        <form id="form" action="/elections/reg" method="post" enctype="multipart/form-data">
+            <div class="wrapper">
+                <div>
+                    <label for="name" class="hover">{{ data['elec-reg1'][lang] }}<span class="info">{{ data['elec-regib1'][lang] }}</span></label>
+                    <input type="text" name="name" required></input>
+                    <label for="id">{{ data['elec-reg2'][lang] }}</label>
+                    <input type="text" name="id" required></input>
+                </div>
+                <div>
+                    <label for="ideology">{{ data['elec-reg3'][lang] }}</label>
+                    <input type="text" name="ideology"></input>
+                    <label for="candidacy">{{ data['elec-reg4'][lang] }}</label>
+                    <select name="candidacy" required>
+                        <option value="mag">{{ data['elec-t3'][lang] }}</option>
+                        <option value="sen">{{ data['elec-t4'][lang] }}</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" value="apply" class="submit-button">{{ data['rf0'][lang] }}</button>
+        </form>
+      </fieldset>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+</body>
+</html>

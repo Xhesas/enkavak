@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/form-style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href="../..">{{ data['m#'][lang] }}</a>
+        <a href="../../ministries">{{ data['m1'][lang] }}</a>
+        <a href="../{{ ministry }}">{{ data["-".join([ministry[0], ministry[1:]])][lang] }}</a>
+    </nav>
+
+    <div class="content">
+      <fieldset>
+        <legend><h3><span>{{ data['m-r0'][lang] }}</span><span>{{ data["-".join([ministry[0], ministry[1:]])][lang] }}</span></h3></legend>
+        <form id="form" action="/{{ path }}" method="post" enctype="multipart/form-data">
+            <div class="wrapper">
+                <div>
+                    <label for="name">{{ data['m-fb-f1'][lang] }}</label>
+                    <input type="text" name="name" required></input>
+                    <label for="id" class="hover">{{ data['m-fb-f2'][lang] }}<span class="info">{{ data['m-fb-fib2'][lang] }}</span></label>
+                    <input type="text" name="id"></input>
+                    <label for="position">{{ data['m-r3'][lang] }}</label>
+                    <input type="text" name="position"></input>
+                </div>
+                <div>
+                    <label for="description">{{ data['m-r4'][lang] }}</label>
+                    <textarea name="description" rows="5" cols="30"></textarea>
+                    <label for="file">{{ data['m-r5'][lang] }}</label>
+                    <input type="file" name="file"></input>
+                </div>
+            </div>
+            <button type="submit" value="apply" class="submit-button">{{ data['rf0'][lang] }}</button>
+        </form>
+      </fieldset>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+</body>
+</html>

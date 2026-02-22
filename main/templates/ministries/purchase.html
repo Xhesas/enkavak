@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/form-style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href="../..">{{ data['m#'][lang] }}</a>
+        <a href="../../ministries">{{ data['m1'][lang] }}</a>
+        <a href="../mbb">{{ data['m-bb'][lang] }}</a>
+    </nav>
+
+    <div class="content">
+      <fieldset>
+        <legend><h3>{{ data['m-bb-f0'][lang] }}</h3></legend>
+        <form id="form-plot" action="/ministries/mbb/plot" method="post" enctype="multipart/form-data">
+            <div class="wrapper">
+                <div>
+                    <div class="sel">
+                        <input type="radio" class="radio" name="issue" value="default" id="default" onclick="sel('default', 'embassy')" checked></input>
+                        <label for="default">{{ data['m-bb-f1'][lang] }}</label>
+                    </div>
+                    <div id="default-info">
+                        <label for="name">{{ data['m-fb-f1'][lang] }}</label>
+                        <input type="text" name="name" required></input>
+                        <label for="id" class="hover">{{ data['m-fb-f2'][lang] }}<span class="info">{{ data['m-bb-fib2'][lang] }}</span></label>
+                        <input type="text" name="id" required></input>
+                    </div>
+                </div>
+                <div>
+                    <div class="sel">
+                        <input type="radio" class="radio" name="issue" value="embassy" id="embassy" onclick="sel('default', 'embassy')"></input>
+                        <label for="embassy">{{ data['m-bb-f2'][lang] }}</label>
+                    </div>
+                    <div id="embassy-info" class="none">
+                        <label for="country">{{ data['m-bb-f3'][lang] }}</label>
+                        <input type="text" name="country"></input>
+                        <label for="name-leader">{{ data['emb-f2'][lang] }}</label>
+                        <input type="text" name="name-leader"></input>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="address">{{ data['m-bb-f4'][lang] }}</label>
+                <input type="text" name="address" required></input>
+            </div>
+            <button type="submit" value="purchase" class="submit-button">{{ data['rf0'][lang] }}</button>
+        </form>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><h3>{{ data['m-bb-f5'][lang] }}</h3></legend>
+        <form id="form-permit" action="/ministries/mbb/permit" method="post" enctype="multipart/form-data">
+            <div class="wrapper">
+                <div>
+                    <div class="sel">
+                        <input type="radio" class="radio" name="issue" value="default" id="default1" onclick="sel('default1', 'embassy1')" checked></input>
+                        <label for="default1">{{ data['m-bb-f1'][lang] }}</label>
+                    </div>
+                    <div id="default1-info">
+                        <label for="name">{{ data['m-fb-f1'][lang] }}</label>
+                        <input type="text" name="name" required></input>
+                        <label for="id" class="hover">{{ data['m-fb-f2'][lang] }}<span class="info">{{ data['m-bb-fib7'][lang] }}</span></label>
+                        <input type="text" name="id" required></input>
+                    </div>
+                </div>
+                <div>
+                    <div class="sel">
+                        <input type="radio" class="radio" name="issue" value="embassy" id="embassy1" onclick="sel('default1', 'embassy1')"></input>
+                        <label for="embassy1">{{ data['m-bb-f2'][lang] }}</label>
+                    </div>
+                    <div id="embassy1-info" class="none">
+                        <label for="country">{{ data['m-bb-f3'][lang] }}</label>
+                        <input type="text" name="country"></input>
+                        <label for="name-leader">{{ data['emb-f2'][lang] }}</label>
+                        <input type="text" name="name-leader"></input>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="address">{{ data['m-bb-f4'][lang] }}</label>
+                <input type="text" name="address" required></input>
+            </div>
+            <button type="submit" value="purchase" class="submit-button">{{ data['rf0'][lang] }}</button>
+        </form>
+      </fieldset>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+
+    <script>
+        function sel(id1, id2) {
+            d = document.getElementById(id1 + "-info");
+            e = document.getElementById(id2 + "-info");
+            let active;
+            let hidden;
+            if (document.getElementById(id1).checked) {active = d;hidden = e;}
+            else {active = e;hidden = d;}
+            active.classList.remove("none");
+            hidden.classList.add("none");
+            for (const child of active.children) {
+                if (child.tagName == "INPUT") {child.setAttribute("required", "required");}
+            }
+            for (const child of hidden.children) {
+                if (child.tagName == "INPUT") {child.removeAttribute("required");}
+            }
+        }
+    </script>
+</body>
+</html>

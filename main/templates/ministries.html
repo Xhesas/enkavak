@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href=".">{{ data['m#'][lang] }}</a>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <h3><a href="ministries/mbb">{{ data['m-bb'][lang] }}</a></h3>
+        </div>
+        <div class="container">
+            <h3><a href="ministries/mfb">{{ data['m-fb'][lang] }}</a></h3>
+        </div>
+        <div class="container">
+            <h3><a href="ministries/mhab">{{ data['m-hab'][lang] }}</a></h3>
+        </div>
+        <div class="container">
+            <h3><a href="ministries/mldi">{{ data['m-ldi'][lang] }}</a></h3>
+        </div>
+        <div class="container">
+            <h3><a href="ministries/mfs">{{ data['m-fs'][lang] }}</a></h3>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+</body>
+</html>

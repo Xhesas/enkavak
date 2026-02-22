@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data['t5'][lang] }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        {% include 'header.html' %}
+    </header>
+
+    <nav class="menu">
+        <a href=".">{{ data['m#'][lang] }}</a>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <h3>{{ data['elec-d2'][lang] }}</h3>
+            <table>
+            <tr>
+                <th>{{ data['elec-t0'][lang] }}</th>
+                <th>{{ data['elec-t1'][lang] }}</th>
+                <th>{{ data['elec-t2'][lang] }}</th>
+            </tr>
+            </table>
+            <h4><a href="elections/vote">{{ data['elec-t5'][lang] }}</a></h4>
+            <h4><a href="elections/reg">{{ data['elec-t6'][lang] }}</a></h4>
+        </div>
+        <br>
+        <hr/>
+        <br>
+        <div class="container">
+            <h3>{{ data['elec-d1'][lang] }}</h3>
+            <img src="/resource/result2024.png" class="round" width="230"></img>
+            <table>
+            <tr>
+                <th>{{ data['elec-t0'][lang] }}</th>
+                <th>{{ data['elec-t1'][lang] }}</th>
+                <th>{{ data['elec-t2'][lang] }}</th>
+            </tr>
+            <tr>
+                <td>{{ data['elec-n0'][lang] }}</td>
+                <td><span>{{ data['elec-t4'][lang] }}</span></td>
+                <td><span>{{ data['elec-r1'][lang] }}</span></td>
+            </tr>
+            <tr>
+                <td>{{ data['elec-n1'][lang] }}</td>
+                <td><span>{{ data['elec-t4'][lang] }}</span></td>
+                <td><span>{{ data['elec-r3'][lang] }}</span></td>
+            </tr>
+            <tr>
+                <td>{{ data['elec-n2'][lang] }}</td>
+                <td>{{ data['elec-t4'][lang] }}</td>
+                <td><span>{{ data['elec-r4'][lang] }}</span></td>
+            </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Enkavak</p>
+    </footer>
+</body>
+</html>
