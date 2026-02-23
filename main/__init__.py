@@ -7,6 +7,7 @@ from random import shuffle
 from flask import Flask, send_from_directory, send_file, request, redirect, render_template, make_response
 from flask_uploads import UploadSet, configure_uploads # do 'pip install flask-reuploaded' instead of using the deprecated 'flask-uploads'
 from jinja2 import TemplateNotFound
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 LANG = {}
 locs = ["reg", "registration", "ministries", "legislation", "jurisdiction", "magistrates", "senate", "bank", "military", "embassies", "elections", "doc", "documentation"]
@@ -376,4 +377,9 @@ if __name__ == '__main__':
             json.dump({}, file, indent=4)
     except FileExistsError:
         pass
+    # set proper wsgi for app if not debug
+    if not args.Debug:
+        app.wsgi_app = ProxyFix(
+            app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1
+        )
     app.run(port=5003, debug=args.Debug)
