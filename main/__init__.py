@@ -2,6 +2,8 @@ import argparse
 import json
 import secrets
 from datetime import datetime as dt, timedelta as dttd
+from os import chdir
+from os.path import dirname, abspath
 from random import shuffle
 
 from flask import Flask, send_from_directory, send_file, request, redirect, render_template, make_response
@@ -362,6 +364,7 @@ def int_to_roman(n):
     return roman_numerals.get(n, str(n))
 
 if __name__ == '__main__':
+    chdir(dirname(abspath(__file__)))
     parser = argparse.ArgumentParser()
     parser.add_argument("-o", "--Output", type=str, help="Defines the output file for POST messages")
     parser.add_argument("-d", "--Debug", action="store_true", help="Activate debug mode")
