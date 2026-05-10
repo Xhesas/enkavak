@@ -672,6 +672,27 @@
             "gr": "",
             "en": "."
         },
+        "m-fb-10": {
+            "lv": "",
+            "de": "Ein anderes Werk in Kollaboration mit Imerchal ist ",
+            "lat": "",
+            "gr": "",
+            "en": "Another work in collaboration with Imerchal is "
+        },
+        "m-fb-11": {
+            "lv": "",
+            "de": "diese Dokumentation über Kushévar",
+            "lat": "",
+            "gr": "",
+            "en": "this documentation on Kushévar"
+        },
+        "m-fb-12": {
+            "lv": "",
+            "de": ".",
+            "lat": "",
+            "gr": "",
+            "en": "."
+        },
         "m-fb-f0": {
             "lv": "",
             "de": "Anmeldung Unterricht",
@@ -810,7 +831,56 @@
             "de": "Ministerium für Latente und Diskrete Informationsbeschaffung",
             "lat": "",
             "gr": "",
-            "en": "Ministry of Classified and Descreet Information Gathering"
+            "en": "Ministry of Classified and Discreet Information Gathering"
+        },
+        "m-ldi-0": {
+            "lv": "",
+            "de": "Das Ministerium für Latente und Diskrete Informationsbeschaffung leistet Arbeit für die Atlantische Regierung die Forschung und Informationsquellen beinhaltet",
+            "lat": "",
+            "gr": "",
+            "en": "The Ministry of Classified and Discreet Information Gathering does work for the Atlantic Government that includes research and information sources."
+        },
+        "m-ldi-1": {
+            "lv": "",
+            "de": "Falls du dich für eine Position in dem Ministerium bewerben möchtest, bitte tu das ",
+            "lat": "",
+            "gr": "",
+            "en": "If you want to apply for a position within the ministry, please do that "
+        },
+        "m-ldi-2": {
+            "lv": "",
+            "de": "hier",
+            "lat": "",
+            "gr": "",
+            "en": "here"
+        },
+        "m-ldi-3": {
+            "lv": "",
+            "de": ".",
+            "lat": "",
+            "gr": "",
+            "en": "."
+        },
+        "m-ldi-4": {
+            "lv": "",
+            "de": "Die Dokumentation über die eigenartigen Marineaktivitäten von 2004 findest du ",
+            "lat": "",
+            "gr": "",
+            "en": "The documentation about the strange naval activities of 2004 is found "
+        },
+        "m-ldi-5": {
+            "lv": "",
+            "de": "hier",
+            "lat": "",
+            "gr": "",
+            "en": "here"
+        },
+        "m-ldi-6": {
+            "lv": "",
+            "de": ".",
+            "lat": "",
+            "gr": "",
+            "en": "."
         },
         "m-fs": {
             "lv": "",
