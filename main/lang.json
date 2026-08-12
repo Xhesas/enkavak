@@ -674,19 +674,40 @@
         },
         "m-fb-10": {
             "lv": "",
+            "de": "Ein weiteres sprachliches Werk ist ",
+            "lat": "",
+            "gr": "",
+            "en": "A further linguistic work is "
+        },
+        "m-fb-11": {
+            "lv": "",
+            "de": "diese Dokumentation über die Kiratochische Sprache",
+            "lat": "",
+            "gr": "",
+            "en": "this documentation on the Kaarratosk Language"
+        },
+        "m-fb-12": {
+            "lv": "",
+            "de": ".",
+            "lat": "",
+            "gr": "",
+            "en": "."
+        },
+        "m-fb-13": {
+            "lv": "",
             "de": "Ein anderes Werk in Kollaboration mit Imerchal ist ",
             "lat": "",
             "gr": "",
             "en": "Another work in collaboration with Imerchal is "
         },
-        "m-fb-11": {
+        "m-fb-14": {
             "lv": "",
             "de": "diese Dokumentation über Kushévar",
             "lat": "",
             "gr": "",
             "en": "this documentation on Kushévar"
         },
-        "m-fb-12": {
+        "m-fb-15": {
             "lv": "",
             "de": ".",
             "lat": "",
